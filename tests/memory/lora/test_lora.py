@@ -1,9 +1,8 @@
 # Standard
 
 # Local
-from ...config import parse
-from ...utils import fmt_size
-from .lora import LoraEstimator
+from fm_training_estimator.config import parse
+from fm_training_estimator.memory.lora.lora import LoraEstimator
 
 
 def test_lora():

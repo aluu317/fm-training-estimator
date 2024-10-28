@@ -1,7 +1,6 @@
 # Local
-from .parser import parse
-from .utils import is_fsdp
-
+from fm_training_estimator.config.parser import parse
+from fm_training_estimator.config.utils import is_fsdp
 
 def test_fsdp_empty():
     config = {}

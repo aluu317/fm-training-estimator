@@ -1,6 +1,6 @@
 # Local
-from ...config import parse
-from .mock import MockSpeedEstimator
+from fm_training_estimator.config import parse
+from fm_training_estimator.throughput.mock.mock import MockSpeedEstimator
 
 
 def test_mock_1():

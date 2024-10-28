@@ -1,5 +1,5 @@
-# Local
-from .model import extract_model_features
+# First Party
+from fm_training_estimator.utils.model import extract_model_features
 
 
 def test_extract_model_features():

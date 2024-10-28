@@ -1,9 +1,9 @@
 # Standard
 from pathlib import Path
 
-# Local
-from ...config import parse
-from .te0 import TokenEstimator0
+# First Party
+from fm_training_estimator.config import parse
+from fm_training_estimator.tokens.te0.te0 import TokenEstimator0
 
 # trick to ensure running this with pytest works from root dir
 test_data = (Path(__file__).parent / "te_test1.jsonl").as_posix()

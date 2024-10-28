@@ -1,8 +1,8 @@
 # Standard
 
-# Local
-from ...config import parse
-from .full import FullParameterTuningEstimator
+# First Party
+from fm_training_estimator.config import parse
+from fm_training_estimator.memory.full.full import FullParameterTuningEstimator
 
 
 def test_full():

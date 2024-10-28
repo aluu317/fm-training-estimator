@@ -1,8 +1,8 @@
 # Standard
 from pathlib import Path
 
-# Local
-from .parser import parse
+# First Party
+from fm_training_estimator.config.parser import parse
 
 config_file_1 = (Path(__file__).parent / "./test_configs/config1.json").as_posix()
 

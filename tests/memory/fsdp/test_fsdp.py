@@ -1,7 +1,7 @@
 # Local
-from ...config import parse
-from ..full import FullParameterTuningEstimator
-from .fsdp import FSDPEstimator
+from fm_training_estimator.config import parse
+from fm_training_estimator.memory.full.full import FullParameterTuningEstimator
+from fm_training_estimator.memory.fsdp.fsdp import FSDPEstimator
 
 
 def test_fsdp():
